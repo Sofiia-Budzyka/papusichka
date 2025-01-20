@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Головна сторінка</title>
-</head>
-<body>
-    <a href="https://math-calc-beryl.vercel.app">Математичний калькулятор</a>
-    <a href="https://web-project-red-eta.vercel.app">Фізичний калькулятор</a>
-</body>
-</html> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universal Calculator | Головна сторінка</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gradient-to-r from-blue-300 to-purple-300">
+    <div
+      class="absolute left-0 top-0 flex h-20 w-full items-center justify-center bg-white bg-opacity-50 text-lg font-bold backdrop-blur"
+    >
+      Universal Calculator
+    </div>
+    <div class="grid h-svh pt-20 w-full grid-cols-2">
+      <a
+        href="https://math-calc-beryl.vercel.app/engineer"
+        class="flex flex-col items-center justify-center gap-6"
+      >
+        <img src="./images/math-calc-logo.svg" alt="" class="w-20" />
+        <div class="line-clamp-2 text-xl font-bold">Математичний</div>
+        <button class="h-12 rounded-full bg-black px-6 text-sm text-white">
+          Перейти
+        </button>
+      </a>
+      <a
+        href="https://web-project-red-eta.vercel.app/"
+        class="flex flex-col items-center justify-center gap-6"
+      >
+        <img src="./images/physics-calc-logo.svg" alt="" class="w-20" />
+        <div class="line-clamp-2 text-xl font-bold">Фізичний</div>
+        <button class="h-12 rounded-full bg-black px-6 text-sm text-white">
+          Перейти
+        </button>
+      </a>
+    </div>
+  </body>
+</html>
